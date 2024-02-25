@@ -1,5 +1,5 @@
 def check_temp(min_value):
-    error = "Please enter a number that is more" \
+    error = "Please enter a number that is more " \
             "than {}".format(min_value)
 
     try:
@@ -14,8 +14,14 @@ def check_temp(min_value):
         print(error)
 
 
-# *** Main routine ****
+# checks temperature to see if more than -459 and then converts it
+def to_celsius(self):
+
+    self.check_temp(-459)
+
+
+# main routine
 
 while True:
     to_check = check_temp(-459)
-    print("Success")
+    print("Success!")
