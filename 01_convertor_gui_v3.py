@@ -106,7 +106,7 @@ class Converter:
         # can be correctly formatted by the formatting function
         if has_error == "yes":
             self.var_has_error.set("yes")
-            self.var_feedback.set("error")
+            self.var_feedback.set("this is too cold")
             return "invalid"
 
         # if we have no errors...
